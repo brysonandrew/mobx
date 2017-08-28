@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #000;
+  color: #4d4d4d;
+  min-width: 320px;
+}
+
+button,
+input[type="checkbox"] {
+  outline: none;
+}
+
+.app {
+  background: #fff;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
